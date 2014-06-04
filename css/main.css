@@ -103,7 +103,7 @@ textarea {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+body, html { height: 100%;}
 body {
 	/*font-family:"Microsoft JhengHei", "Lato", Helvetica, sans-serif !important;*/
 	font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Arial", sans-serif !important;
@@ -117,7 +117,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color:#FFD119;
+	background-color:#ffd119;
 	
 }
 #page1-header {
@@ -163,7 +163,6 @@ body {
     display: inline;
     color: black;
 	text-align: center;
-
 }
 #page1_text {
     padding:  12rem 0 25rem 0;
@@ -184,10 +183,10 @@ body {
 	margin-top: 1rem;
 }
 #page2 {
-	background-color:#FFD119;
+	background-color:#ffd119;
 	position: relative;
 }
-.page2-content{
+.page2-content, .page4-content, .page5-content{
     float: left;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -239,7 +238,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;*/
-	background-color:#1b1b1b;
+	background-color:#2c2c2c;
 }
 #four-logo {
     margin: 0 auto;
@@ -262,10 +261,10 @@ body {
 #page3 .content {
     color: white;
 	line-height: 650%;
-	padding: 5% 0 10% 0;
+	padding: 5% 0 5% 0;
 }    
 #page3 .content p{
-    font-size: 3em;
+    font-size: 3vw;
 	margin-bottom: 0;
 	font-weight: bold;
 	margin-left: 5%;
@@ -273,21 +272,139 @@ body {
 #page3 .content em{
     font-style: normal;
 	font-weight: bold;
-    font-size: 1.5em;
+    font-size: 3.5vw;
 }  
 #page3 .content h2{
-    font-size: 6em;
+    font-size: 5.5vw;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
 	margin-left: 5%;
 }    
+#page4 {
+	background-color:#ff3333;
+	position: relative;
+	height: 100%;
+}
+#page4-img {
+    position: relative;
+	margin: 14rem 0 13rem 0;
+}
+#nuclear {
+	display: block;
+    margin: 0 auto;
+	padding: 0;
+}
+#bubble-1, #bubble-2, #bubble-4  {
+    width: 8rem;
+}
+#bubble-1  {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	padding: 0;
+}
+#bubble-2  {
+    position: absolute;
+	-webkit-transform:rotate(-30deg);
+    -moz-transform:rotate(-30deg);
+    -ms-transform:rotate(-30deg);
+     -o-transform:rotate(-30deg);
+        transform:rotate(-30deg);
+	left: 20%;
+	top: 10%;
+}
+#bubble-4 {
+    position: absolute;
+	left: 67%;
+	top: 10%;
+}
+#page4-text {
+    font-size: 4vw;
+	font-weight: bold;
+	margin: 17rem 0 7rem 0;
+}
+#page4-text p{
+    margin: 0;
+}
 
+#page5 {
+    background-image: url('../img/gif-frames/sunrise16-17.png');
+	background-repeat:no-repeat;
+    background-position:center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#ffffff;
+	position: relative;
+}
+#page5-text {
+    color: #fff660;
+	font-size: 6vw;
+	font-weight: bold;
+	margin: 70% 0 5% 5%;
+	padding: 0;
+}
+#page5-text p {
+    margin: 0;
+}
+#btn-start-to-ask {
+    position: absolute;
+    bottom: 0;
+	right: 0;
+	margin: 0 5% 3.5% 0;
+	width: 25vw;
+}
+#footer {
+    background: #fff660;
+}
 
+#footer-contact {
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 0.5%;
+	margin: 10px 0 10px 65px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: background 0.3s ease, color 0.2s linear;
+	-moz-transition: background 0.3s ease, color 0.2s linear;
+	-o-transition: background 0.3s ease, color 0.2s linear;
+	transition: background 0.3s ease, color 0.2s linear;
+}
 
+#footer-contact:hover{
+    color: #ffffff;
+	background: #ff3333;
+}
 
+#footer-links {
+    display: inline-block;
+	color = black;
+	line-height: 8px;
+	padding-top: 15px;
+	margin-right: 20px;
+	float: right;
+}
 
-
+#footer-links i {
+    margin: 0 10px 0 10px;
+}
+#link-fb {
+    color: 3b5998;
+}
+#link-gl {
+    color: #d34836;
+}
+#link-tt {
+    color: #4099ff;
+}
 
 
 
