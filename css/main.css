@@ -109,6 +109,11 @@ body {
 	font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Arial", sans-serif !important;
 	-webkit-font-smoothing:antialiased;
 }
+.page-wrapper {
+    max-width: 78%;
+	margin: 0 auto;
+}
+
 #page1 {
     background-image: url('../img/newspaper-background-cut.png');
 	background-repeat:no-repeat;
@@ -342,9 +347,9 @@ body {
 }
 #page5-text {
     color: #fff660;
-	font-size: 6vw;
+	font-size: 4vw;
 	font-weight: bold;
-	margin: 70% 0 5% 5%;
+	margin: 80% 0 5% 5%;
 	padding: 0;
 }
 #page5-text p {
@@ -355,7 +360,7 @@ body {
     bottom: 0;
 	right: 0;
 	margin: 0 5% 3.5% 0;
-	width: 25vw;
+	width: 18vw;
 }
 #footer {
     background: #fff660;
