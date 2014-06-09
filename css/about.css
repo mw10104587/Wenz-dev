@@ -160,7 +160,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color:#ffffff;
+	background-color:#000000;
 	
 }
 #about-us{
@@ -179,7 +179,91 @@ body {
 	margin: 0 auto;
 	width: 40vw;
 	padding-bottom: 40vw;
-	border: 3px solid black;
+}
+div .page2-content {
+    width: 90%;
+	margin: 0 auto;
+}
+#page2-header {
+    margin: 0 auto;
+	width: 30vw;
+	color: #ffa500;
+    font-family: 'Futura Light', 'Open Sans', sans-serif;
+	font-size: 4vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+}
+#page2 .man  {
+    position: relative;
+	max-width: 693px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1vw;
+}
+#page2 .man .photo {
+    display: block;
+    width: 100%;
+}
+#page2 .man .name {
+    position: absolute;
+    font-size: 2.5vw;
+	line-height: 2.6vw;
+	font-weight: bold;
+	width: 1vw;
+	color: #ffffff;
+	top: 1vw;
+	right: 3vw;
+	margin: 0;
+}
+#page2 .man .description {
+    position: absolute;
+	font-family: 'Helvetica Light', Helvetica, 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+	/*line-height: 3vw;*/
+	color: #ffffff;
+	top: 0.5vw;
+	left: 1.5vw;
+	margin: 0;
+}
+#page2 .man .description2 {
+    position: absolute;
+	font-family: 'Helvetica Light', Helvetica, 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+	/*line-height: 3vw;*/
+	color: #ffffff;
+	top: 2vw;
+	left: 1.5vw;
+	margin: 0;
+}
+#page2-bottom {
+    width: 50%;
+	margin: 0 auto;
+	padding: 2vw 0 2vw 0;
+}
+
+#page2-bottom p {
+    font-size: 1.5vw;
+	margin: 0 auto;
+}
+
+
+#join-us {
+    display: block;
+    text-decoration: none;
+    width: 9.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+    color: #ffffff;
+	text-decoration: none;
+	font-size: 2vw;
+	padding: 0.5vw;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+	border-radius: 5px;
+	background: #ff3333;
 }
 
 
