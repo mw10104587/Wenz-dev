@@ -106,7 +106,7 @@ textarea {
 body, html { height: 100%;}
 body {
 	/*font-family:"Microsoft JhengHei", "Lato", Helvetica, sans-serif !important;*/
-	font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Arial", sans-serif !important;
+	font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Arial", sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
 .page-wrapper {
@@ -114,18 +114,7 @@ body {
 	margin: 0 auto;
 }
 
-#page1 {
-    background-image: url('../img/newspaper-background-cut.png');
-	background-repeat:no-repeat;
-    background-position:center; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-color:#ffd119;
-	
-}
-#page1-header {
+#header {
     background: #fff660;
 }
 #wen_icon {
@@ -163,30 +152,37 @@ body {
     color: #ffffff;
 	background: #ff3333;
 }
+#page1 {
+    background-image: url('../img/about/section1.jpg');
+	background-repeat:no-repeat;
+    background-position:center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#ffffff;
+	
+}
+#about-us{
+    margin: 0 auto;
+	width: 20vw;
+    color: #ffa500;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4vw;
+	padding-top: 2vw;
+	padding-bottom: 0.3vw;
+}
+#page1-decription {
+    color: #ffa500;
+	font-size: 2vw;
+	font-weight: bold;
+	margin: 0 auto;
+	width: 40vw;
+	padding-bottom: 40vw;
+	border: 3px solid black;
+}
 
-#page1 .content {
-    display: inline;
-    color: black;
-	text-align: center;
-}
-#page1_text {
-    padding:  10rem 0 35rem 0;
-}
-#page1-content-container{
-    background-color: rgba(255, 228, 44, 0.5);
-}
-#content1 { 
-    display: inline-block;
-    border-bottom: 0.5rem solid black;
-	padding: 0 0 0.5rem 0;
-	margin-bottom: 0; 
-	margin-top: 0.1rem;
-	font-size: 5vw;
-}
-#content2 { 
-    font-size: 6vw;
-	margin-top: 0.8rem;
-}
+
 #page2 {
 	background-color:#ffd119;
 	position: relative;
