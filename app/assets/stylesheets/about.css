@@ -125,7 +125,7 @@ body {
 #navigation {
     display: inline;
 	text-decoration: none;
-	color = white;
+	color: white;
 	margin: 0 1rem 0 0;
 	padding: 0.7rem 0 1rem 0;
 	float: right;
@@ -295,7 +295,7 @@ div .page2-content {
 
 #footer-links {
     display: inline-block;
-	color = black;
+	color: black;
 	line-height: 8px;
 	padding-top: 15px;
 	margin-right: 20px;
