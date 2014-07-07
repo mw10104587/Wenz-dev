@@ -115,7 +115,7 @@ body {
 }
 
 #page1 {
-    background-image: url('../img/newspaper-background-cut.png');
+    background-image: url('/assets/newspaper-background-cut.png');
 	background-repeat:no-repeat;
     background-position:center; 
 	-webkit-background-size: cover;
@@ -243,7 +243,7 @@ body {
 }
 #page3 {
     width: 100%;
-    /*background-image: url('../img/index-texture-background.jpg');
+    /*background-image: url('/assets/index-texture-background.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -344,7 +344,7 @@ body {
 }
 
 #page5 {
-    background-image: url('../img/gif-frames/sunrise16-17.png');
+    background-image: url('/assets/gif-frames/sunrise16-17.png');
 	background-repeat:no-repeat;
     background-position:center; 
 	-webkit-background-size: cover;
